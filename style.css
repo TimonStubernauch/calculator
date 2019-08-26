@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width:50px;
+    height:50px;
+    background-color: gray;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    box-shadow: 0px 0px 1px black;
+}
+#numbers{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:150px;
+}
+#operaters{
+    
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    width:200px;
+    
+}
+.bigBtn{
+    width:100px;
+}
+#left{
+    display:flex;
+    flex-direction: column;
+}
+#options{
+    display:flex;
+    flex-direction: row;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-top:120px;
+}
+#display{
+    width:200px;
+    height:80px;
+    background-color: antiquewhite;
+    border:1px solid black;
+    border-bottom-style: hidden;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(226, 222, 213);    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1,h4{
+    text-align: center;
+    margin:50px;
+}
+h1{
+    font-size: 50px;
+
+}
+h4{
+    font-size: 15px; 
+}
+#numbers .btn{
+    background-color: gray;
+}
+#operators .btn{
+    background-color: rgb(236, 159, 44);
+}
+#options .btn{
+    background-color: rgb(231, 45, 45);
+}
+#numbers .btn:hover{
+    background-color: rgb(165, 164, 164);
+}
+#operators .btn:hover{
+    background-color: rgb(230, 178, 101);
+}
+#options .btn:hover{
+    background-color: rgb(231, 84, 84);
+}
+#display span{
+    text-align: right;
+    height:40px;
+    max-width: 200px;
+    line-height: 30px;
+    padding: 5px;
+}
+#outputLast{
+    border-bottom: 1px dotted black;
+}
